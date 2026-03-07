@@ -291,3 +291,16 @@ SECCIÓN HEROE (PORTADA)
     transition: width 1s ease;
     border-radius: 10px;
 }
+/* ========================================
+   EFECTO GLOW EN REDES SOCIALES
+   ======================================== */
+
+.social-links a {
+    position: relative;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+}
